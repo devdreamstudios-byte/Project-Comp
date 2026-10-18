@@ -369,10 +369,7 @@
 </head>
 <body>
 
-<!-- =========================================================
-     EDIT YOUR LINKS in the CONFIG object at the bottom of this
-     file — everything marked "soon" turns into a real link.
-     ========================================================= -->
+
 
 <header class="site-header">
   <div class="wrap inner">
@@ -402,7 +399,7 @@
 
 <section class="hero" id="top">
   <div class="hero-media">
-    <img src="https://media.base44.com/images/public/6ad40d5b859116ff132c3be2/157c3ad9a_generated_image.png" alt="Project Comp movement" />
+    <img src="image.png" alt="Project Comp movement" />
     <div class="overlay-x"></div>
     <div class="overlay-y"></div>
     <div class="grid-lines"></div>
@@ -780,25 +777,22 @@
 </footer>
 
 <script>
-  /* =========================================================
-     1. EDIT YOUR LINKS HERE
-     Leave a value empty ("") and that button stays "soon".
-     ========================================================= */
+    
   const CONFIG = {
-    // e.g. "https://discord.gg/abcd1234" — also powers the live member count
+    
     discordInvite: '',
-    // e.g. "https://yourname.itch.io/project-comp"
+    
     itch: '',
-    // your App Lab / Meta Quest store link
+    
     applab: '',
-    // direct download links for the two builds
+    
     builds: ['', ''],
     owners: [
       { name: 'Owner', handle: '@your-handle', role: 'Project lead', url: '' },
       { name: 'Co-owner', handle: '@your-handle', role: 'Maps & servers', url: '' }
     ],
-    // the live Discord counter endpoint (already set up for Project Comp)
-    statsEndpoint: 'https://play-project-comp.base44.app/functions/discordStats'
+    )
+    statsEndpoint: 'Not Configured'
   };
 
   const STORAGE_KEY = 'project-comp-linked-player';
